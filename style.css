@@ -48,10 +48,9 @@
 
 p {
     font-family: 'Work Sans', sans-serif;
-    font-weight: bolder;
+    font-weight: lighter;
     color: rgb(102, 101, 101);
 }
- 
 
 #image {
     border-radius: 10px;
@@ -65,7 +64,8 @@ p {
 }
 
 #office {
-    font-size: 18px;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .bottom-right {
@@ -75,7 +75,7 @@ p {
     transform: translate(-50%, -50%);
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .shopInfo {
