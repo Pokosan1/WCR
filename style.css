@@ -37,7 +37,7 @@
 }
 
 #bannerImage {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(250, 247, 240, 0.7)), url('/WCR/image/crystals17.jpeg'); 
+    background: linear-gradient(rgba(250, 247, 240, 0.1), rgba(250, 247, 240, 0.7)), url('/WCR/image/crystals17.jpeg'); 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
