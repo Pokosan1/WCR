@@ -46,9 +46,6 @@
     height: 450px;
 }
 
-
-
-
 p {
     font-family: 'Work Sans', sans-serif;
     font-weight: lighter;
@@ -68,7 +65,7 @@ p {
 }
 
 #office {
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .bottom-right {
