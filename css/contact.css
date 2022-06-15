@@ -1,0 +1,177 @@
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    border-color:rgb(84, 190, 197);
+
+}
+
+.navbar-brand {
+    color: white;
+    font-family: 'Corinthia', cursive;
+}
+
+.navbar-toggler-icon {
+    color: rgb(71, 169, 194);
+}
+
+.navbar {
+    background-color: rgb(84, 190, 197);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-link {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+}
+
+#bannerImage {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(250, 247, 240, 0.1)), url('/image/crystals2.jpeg'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+}
+p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+    color: rgb(102, 101, 101);
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+th, 
+td {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+    color: rgb(102, 101, 101);}
+
+td {
+    padding-left: 10px;
+}
+
+.closed {
+    color: red;
+}
+
+.address {
+    font-weight: bolder;
+}
+
+.form-control {
+    margin-right: 1px;
+    border-radius: 5px;
+}
+
+.form-control:hover {
+    font-style: italic;
+}
+
+#contact {
+    font-size: 12px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
+#placeholder {
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    background: transparent;
+    border: none;
+}
+
+hr {
+    width: 100%;
+    margin-top: 0;
+}
+.email {
+    border: none;
+    background: transparent;
+    color:rgb(102, 101, 101);
+    font-size: 15px;
+}
+
+
+
+.get {
+    background-color: rgba(30, 117, 117, 0.2);
+    padding: 20px;
+  }
+
+.footer__content {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  ul.social__media {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-top: 15px;
+  }
+  
+  ul.social__media li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  ul.social__media li a {
+    color: rgb(84, 190, 197);
+    font-size: 30px;
+  }
+  
+  ul.social__media li {
+    /* text-align: center;
+    height: 55px;
+    width: 55px; */
+    /* border-radius: 50px; */
+    /* background-color: white; */
+    /* line-height: 60px; */
+    /* border: 2px solid #bde5f5; */
+  
+  }
+  @media (max-width: 768px) {
+    .row { 
+      max-width: 100%;
+      margin: auto;
+    }
+   }
+
+@media (min-width: 768px) {
+    #contactP,
+    #locationP {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    #contact {
+        margin-left: 10px;
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .navbar-brand {
+        font-size: 30px;
+    }
+}
+
+

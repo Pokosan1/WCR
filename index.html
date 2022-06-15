@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Work+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>Bootstrap Example</title>
+  </head>
+  <body>
+
+    <!-- Example Code -->
+    
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <!-- <div class="container"> -->
+            <div class="container-fluid">
+                <a class="navbar-brand order-1" href="#" target="_blank">Where Crystals Rock</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link text-white" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link text-white" href="/html/about.html">About</a>
+                    <a class="nav-link text-white" href="#shop">Shop</a>
+                    <a class="nav-link text-white" href="/html/contact.html">Contact</a>
+                </div>
+                </div>
+            </div>
+        <!-- </div> -->
+    </nav>
+    
+    <div class="banner-image d-flex justify-content-center align-items-center" id='bannerImage'>
+        <div class="content text-center">
+            <img src="/image/logo.png" alt="" class="logo">
+        </div>
+    </div>
+    <div>
+        <p class='content text-center m-4'>We are a small, local boutique that offers a varied inventory of crystals, minerals, jewelry, meteorites, fossils and much more.</p>
+    </div>
+    
+    <h2 class="display-5 text-center mt-5 mb-4 text-muted">Shop</h2>
+
+
+    <div class='wrapper'>
+
+    <div class="row gap-3 shopBox">
+      <div class="col-md p-1 border-1">
+        <!-- <h3 class="mb-4 text-center my-4">Natural Rough</h3> -->
+        <a href="#">
+          <img class="mb-4 mx-auto d-block" style="max-width: 100%" src="/image/crystals9.jpeg" alt="WebApp Icon" id="image">
+        </a>
+        <div class="bottom-right text-white">NATURAL ROUGH</div>
+      </div>
+    </div>
+
+    <div class="row gap-3 shopBox">
+        <div class="col-md p-1 border-1">
+          <!-- <h3 class="mb-4 text-center my-4">Natural Rough</h3> -->
+          <a href="https://pokosan1.github.io/web_app_dashboard_v3.2/">
+            <img class="mb-4 mx-auto d-block" style="max-width: 100%" src="/image/crystals5.jpeg" alt="WebApp Icon" id="image">
+          </a>
+          <div class="bottom-right text-white">POLISHED SHAPES</div>
+        </div>
+    </div>
+
+    <div class="row gap-3 shopBox">
+        <div class="col-md p-1 border-1">
+          <!-- <h3 class="mb-4 text-center my-4">Natural Rough</h3> -->
+          <a href="https://pokosan1.github.io/web_app_dashboard_v3.2/">
+            <img class="mb-4 mx-auto d-block" style="max-width: 100%" src="/image/crystals11.jpeg" alt="WebApp Icon" id="image">
+          </a>
+          <div class="bottom-right text-white" id='office'>HOME/OFFICE DECOR</div>
+        </div>
+    </div>
+
+    <div class="row gap-3 shopBox">
+        <div class="col-md p-1 border-1">
+          <!-- <h3 class="mb-4 text-center my-4">Natural Rough</h3> -->
+          <a href="https://pokosan1.github.io/web_app_dashboard_v3.2/">
+            <img class="mb-4 mx-auto d-block" style="max-width: 100%" src="/image/crystals14.jpeg" alt="WebApp Icon" id="image">
+          </a>
+          <div class="bottom-right text-white">JEWELRY</div>
+        </div>
+    </div>
+
+    </div>
+
+    <div>
+        <p class='content text-center m-3 shopInfo'>Our online shop contains a fraction of what you can find in store. If there is something you are interested in, but do not see here, please do not hesitate to email us. Customer service is our pleasure and highest priority.</p>
+    </div>
+
+    <div class="get">
+        <div class="row py-4">
+          <div class="col-md col-xl-5">
+              <h3 class="text-muted mb-4" id="contact">SUBSCRIBE TO OUR MAILING LIST</h3>
+          </div>
+          
+
+            <div class="col-md col-xl-5 ms-auto">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Your email" id="placeholder">
+                    <span class="input-group-btn">
+                    <a class="btn btn-secondary email" role="button" href="mailto:sandy.hara@example.com">SUBMIT</a>
+                    </span>
+                </div>
+            </div>
+        </div>   
+
+        <div>
+          <section class="footer">
+            <div class="container">
+              <div class="footer__content">
+                <ul class="social__media">
+                  <li><a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                  <li><a href="https://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="https://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+</html>
