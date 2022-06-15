@@ -188,13 +188,12 @@ p {
 
 
     #bannerImage {
-        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(250, 247, 240, 0.7)), url('/image/crystals17.jpeg'); 
         background-position: center;
         background-size:initial;
         background-repeat: no-repeat;
         justify-content: center;
-        width: 100vw;
-        height: 800px;
+        width: 100%;
+        height: 770px;
     }
 
     .logo {
